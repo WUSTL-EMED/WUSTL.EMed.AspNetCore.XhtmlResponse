@@ -17,7 +17,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>aspnetcore middleware xhtml</PackageTags>
     <PackageVersion>1.0.0</PackageVersion>
-    <Description></Description>
+    <Description>Middleware for returning xhtml content type instead of html.</Description>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
