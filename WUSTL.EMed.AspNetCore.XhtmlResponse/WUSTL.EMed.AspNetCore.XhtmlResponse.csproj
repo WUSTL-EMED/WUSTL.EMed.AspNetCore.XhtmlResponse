@@ -16,7 +16,7 @@
     <RepositoryUrl>https://github.com/WUSTL-EMED/WUSTL.EMed.AspNetCore.XhtmlResponse.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>aspnetcore middleware xhtml</PackageTags>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Description>Middleware for returning xhtml content type instead of html.</Description>
   </PropertyGroup>
 
