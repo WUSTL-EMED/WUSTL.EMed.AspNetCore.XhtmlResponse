@@ -363,5 +363,3 @@ FodyWeavers.xsd
 
 # Strong name key file
 *.snk
-
-WUSTL.EMed.AspNetCore.XhtmlResponse/WUSTL.EMed.AspNetCore.XhtmlResponse.xml

@@ -16,14 +16,14 @@
     <RepositoryUrl>https://github.com/WUSTL-EMED/WUSTL.EMed.AspNetCore.XhtmlResponse.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>aspnetcore middleware xhtml</PackageTags>
-    <PackageVersion>1.0.2</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
     <Description>Middleware for returning xhtml content type instead of html.</Description>
     <Authors>Aaron Papp</Authors>
     <Copyright>Copyright © 2021 Washington University in St. Louis</Copyright>
+    <DocumentationFile>.\WUSTL.EMed.AspNetCore.XhtmlResponse.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>.\WUSTL.EMed.AspNetCore.XhtmlResponse.xml</DocumentationFile>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
   </PropertyGroup>
 
