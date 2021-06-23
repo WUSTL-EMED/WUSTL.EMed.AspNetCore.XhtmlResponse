@@ -9,12 +9,11 @@
             Static class for adding XhtmlContentType middlware.
             </summary>
         </member>
-        <member name="M:WUSTL.EMed.AspNetCore.XhtmlResponse.UseXhtmlContentTypeMiddleware.UseXhtmlContentType(Microsoft.AspNetCore.Builder.IApplicationBuilder,System.Boolean)">
+        <member name="M:WUSTL.EMed.AspNetCore.XhtmlResponse.UseXhtmlContentTypeMiddleware.UseXhtmlContentType(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
             <summary>
-            Adds a response handler that changes html responses into xhtml responses, when available, when enabled.
+            Adds a response handler that changes html responses into xhtml responses, when available.
             </summary>
             <param name="app">An <see cref="T:Microsoft.AspNetCore.Builder.IApplicationBuilder"/> instance.</param>
-            <param name="enabled">True if xhtml content types should be used on responses; otherwise, false.</param>
             <returns>The given <see cref="T:Microsoft.AspNetCore.Builder.IApplicationBuilder"/> instance.</returns>
         </member>
         <member name="T:ThisAssembly">
@@ -30,34 +29,34 @@
             <summary>IsDirtyString: false</summary>
         </member>
         <member name="F:ThisAssembly.Git.RepositoryUrl">
-            <summary>Repository URL: </summary>
+            <summary>Repository URL: git@github.com:WUSTL-EMED/WUSTL.EMed.AspNetCore.XhtmlResponse.git</summary>
         </member>
         <member name="F:ThisAssembly.Git.Branch">
             <summary>Branch: master</summary>
         </member>
         <member name="F:ThisAssembly.Git.Commit">
-            <summary>Commit: </summary>
+            <summary>Commit: b1501e7</summary>
         </member>
         <member name="F:ThisAssembly.Git.Sha">
-            <summary>Sha: </summary>
+            <summary>Sha: b1501e7d1631c069691efa44fbc2afcdaf0600ac</summary>
         </member>
         <member name="F:ThisAssembly.Git.CommitDate">
-            <summary>Commit date: </summary>
+            <summary>Commit date: 2021-06-14T08:47:00-05:00</summary>
         </member>
         <member name="F:ThisAssembly.Git.Commits">
-            <summary>Commits on top of base version: 0</summary>
+            <summary>Commits on top of base version: 4</summary>
         </member>
         <member name="F:ThisAssembly.Git.Tag">
-            <summary>Tag: </summary>
+            <summary>Tag: 1.0.0-4-gb1501e7</summary>
         </member>
         <member name="F:ThisAssembly.Git.BaseTag">
-            <summary>Base tag: </summary>
+            <summary>Base tag: 1.0.0</summary>
         </member>
         <member name="T:ThisAssembly.Git.BaseVersion">
             <summary>Provides access to the base version information used to determine the <see cref="T:ThisAssembly.Git.SemVer" />.</summary>      
         </member>
         <member name="F:ThisAssembly.Git.BaseVersion.Major">
-            <summary>Major: 0</summary>
+            <summary>Major: 1</summary>
         </member>
         <member name="F:ThisAssembly.Git.BaseVersion.Minor">
             <summary>Minor: 0</summary>
@@ -69,13 +68,13 @@
             <summary>Provides access to SemVer information for the current assembly.</summary>
         </member>
         <member name="F:ThisAssembly.Git.SemVer.Major">
-            <summary>Major: 0</summary>
+            <summary>Major: 1</summary>
         </member>
         <member name="F:ThisAssembly.Git.SemVer.Minor">
             <summary>Minor: 0</summary>
         </member>
         <member name="F:ThisAssembly.Git.SemVer.Patch">
-            <summary>Patch: 0</summary>
+            <summary>Patch: 4</summary>
         </member>
         <member name="F:ThisAssembly.Git.SemVer.Label">
             <summary>Label: </summary>
@@ -84,7 +83,7 @@
             <summary>Label with dash prefix: </summary>
         </member>
         <member name="F:ThisAssembly.Git.SemVer.Source">
-            <summary>Source: Default</summary>
+            <summary>Source: Tag</summary>
         </member>
     </members>
 </doc>
